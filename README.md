@@ -3,7 +3,7 @@
 ## My Unit Tests
 https://github.com/ECE444-2023Fall/project-1-web-application-design-group27-rubberducks/blob/UEH-2-Homepage/Event_Horizon/src/__tests__/events.test.jsx
 
-The above unit test was implemented to test the functionality of the favouriting button, which is a frontend react component. The test utilizes Jest and Babel.
+The above unit test was implemented to test the functionality of the favouriting button, which is a frontend react component. The test utilizes Jest and Babel. The group currently have limited back-end infrastructure, hence a unit test was implemented for the above front-end component.
 
 ## Pros and Cons of TDD
 Test-driven devlopment is useful for ensuring the code functions as intended, helps the developer organize the code structure, and reduces technical debt. TTD helps ensure the code functions as intended because the unit tests requires the code perform a specific functionality, otherwise the test would fail. Utilizing such unit tests would force the developer to consider the individual functionality of every component rather than writing code and debugging at the end and trying to figure out what component is the bottleneck. TDD helps the developer organize the code structure because you're forced to give more considerations about the modularity of the design as you're testing components individually, which leads to a clearer understanding of what the code you wrote is doing. Lastly, TDD reduces technical debt because you're debugging at every stage instead of debugging at the end and investing time in finding out what component isn't doing what you want it to do.
